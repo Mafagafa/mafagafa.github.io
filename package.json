@@ -1,0 +1,16 @@
+{
+  "name": "mafagafa",
+  "version": "0.0.1",
+  "description": "Computacao criativa para cirancas",
+  "main": ".vuepress/config.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "https://github.com/Mafagafa/mafagafa.github.io",
+  "author": "Gil Fuser",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
