@@ -1,16 +1,21 @@
 {
   "name": "mafagafa",
   "version": "0.0.1",
-  "description": "Computacao criativa para cirancas",
-  "main": ".vuepress/config.js",
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+  "description": "Crianças, computadores e criatividade",
+  "main": "index.js",
+  "authors": {
+    "name": "Gil Fuser",
+    "email": "gilfuser@gmail.com"
   },
-  "repository": "https://github.com/Mafagafa/mafagafa.github.io",
-  "author": "Gil Fuser",
+  "repository": "https://github.com/Mafagafa/mafagafa.github.io/mafagafa",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.3.1",
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1"
   }
 }
