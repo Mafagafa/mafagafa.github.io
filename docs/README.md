@@ -1,13 +1,14 @@
 ---
 home: true
-heroImage: /images/mafagafin.jpg
-heroBackground: /images/mafagafin.jpg
-tagline: Crianças, computadores e criatividade
-actionText: Quick Start →
+sidebar: false
+heroImage: /images/logo-mafagafa_circular.png
+heroBgImg: images/areiafina.png
+tagline: Crianças, Computadores e Arte
+actionText: Saiba Mais! →
 actionLink: /guide/
 pageClass: homepage
-features:
-- title: Feature 1 Title
+features: 
+- title: Desbitolado
   details: Feature 1 Description
 - title: Feature 2 Title
   details: Feature 2 Description
@@ -15,3 +16,5 @@ features:
   details: Feature 3 Description
 footer: Made by Gil Fuser with ❤️
 ---
+
+# home

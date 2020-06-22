@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  // theme: 'yur',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -8,25 +9,32 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'Crianças, computadores e criatividade',
+  description: 'Crianças, Computadores e Arte',
 
-  /**
+  /*
    * Extra tags to be injected to the page HTML `<head>`
-   *
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#c43333' }],
+    ['meta', { name: 'theme-color', content: '#f66759' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
-   *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    lang: 'pt-BR',
+    logo: '/small-logo-mafagafa.png',
+    // author: 'Gil Fuser',
+    // authorLink: 'https://gilfuser.net',
+    locales: {
+      title: 'Mafagafa',
+      description: 'Crianças, computadores e criatividade'
+    },
+    
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -34,19 +42,19 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'Saiba Mais',
         link: '/guide/',
       },
       {
-        text: 'Config',
+        text: 'Sobre mim',
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Inspiração',
+        link: 'https://vuepress.vuejs.org'
       }
     ],
-    sidebar: {
+    sidebar: false /*{
       '/guide/': [
         {
           title: 'Guide',
@@ -57,6 +65,12 @@ module.exports = {
           ]
         }
       ],
+    }
+    */
+  },
+  postcss: {
+    scss: { 
+      // includePaths: [nodeModules]
     }
   },
 
